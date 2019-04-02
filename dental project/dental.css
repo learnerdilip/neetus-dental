@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    padding: 60px 0px 0px 0px;
+}
+
+h1 {
+    margin: 1% 10%;
+    color: lightseagreen;
+    text-align: center;
+
+}
+#imagesHP {
+    position: relative;
+    display: flex;
+}
+
+#ban1,#ban2 {
+    border: cadetblue solid 2px;
+    height: 250px;
+    object-fit: fill;
+}
+
+#aboutbrand {
+    display: inline-block;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: auto;
+    border: cadetblue solid 2px;  
+    padding: 20px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 5px 5px cadetblue;
+    background-image: linear-gradient(to right,rgb(51, 61, 204), rgb(154, 210, 212))
+}
+
+footer {
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    border: grey solid 1px;
+}
+
+.cardcontainer {
+    justify-content: space-evenly;
+}
+.card {
+    margin: 10px;
+    box-shadow: 3px 5px cadetblue;
+    border: turquoise solid 1px;
+}
+
+#carouselExampleIndicators {
+    margin: 0% 25%;
+    object-fit: cover;
+}
